@@ -1,0 +1,38 @@
+{
+  "name": "humanize-ai-detector",
+  "version": "1.0.0",
+  "description": "Detect and analyze AI writing patterns in text. Based on Wikipedia's 'Signs of AI writing' guide.",
+  "main": "humanize.js",
+  "bin": {
+    "humanize": "./humanize.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ai",
+    "writing",
+    "detector",
+    "gpt",
+    "chatgpt",
+    "claude",
+    "llm",
+    "text-analysis",
+    "content-detection",
+    "writing-quality",
+    "editor-tools"
+  ],
+  "author": "Cortana <cortana@openclaw.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanchunsiong/humanize-ai-detector"
+  },
+  "homepage": "https://github.com/tanchunsiong/humanize-ai-detector#readme",
+  "bugs": {
+    "url": "https://github.com/tanchunsiong/humanize-ai-detector/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
