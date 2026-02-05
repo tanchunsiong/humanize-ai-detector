@@ -6,14 +6,22 @@ Based on Wikipedia's comprehensive "[Signs of AI writing](https://en.wikipedia.o
 
 ## Installation
 
+### From GitHub (recommended)
+
+```bash
+npm install -g github:tanchunsiong/humanize-ai-detector
+```
+
+### From npm (coming soon)
+
 ```bash
 npm install -g humanize-ai-detector
 ```
 
-Or use directly with npx:
+### Use directly with npx
 
 ```bash
-npx humanize-ai-detector analyze "Your text here"
+npx github:tanchunsiong/humanize-ai-detector analyze "Your text here"
 ```
 
 ## Usage
